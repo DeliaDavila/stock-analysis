@@ -49,10 +49,10 @@ Once the arrays have been populated with information from the second loop, the t
 The refactored code successfully reduces the runtime of the code. This is easily demonstrated by using the buttons to run the previous code (Run All Stocks Analysis) and the new code (Run refactored). Where the previous code runs at about .6 seconds, the new code runs at around .1 second. See screenshots below.
 
 ### 2017 runtime
-![Screenshot2017](https://github.com/DeliaDavila/stock-analysis/blob/main/Resources/Screenshot2017.png)
+![VBA_Challenge_2017](https://github.com/DeliaDavila/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 ### 2018 runtime
-![Screenshot2018](https://github.com/DeliaDavila/stock-analysis/blob/main/Resources/Screenshot2018.png)
+![VBA_Challenge_2018](https://github.com/DeliaDavila/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 ## Summary
 In this section, I discuss the relative merits of refactoring
