@@ -1,4 +1,4 @@
-# stock-analysis
+# Stock Analysis
 Using VBA to analyze stock data in Excel
 
 ## Overview of Project
@@ -23,6 +23,7 @@ The first loop goes through the array *tickerVolumes* and sets the value to zero
 The second loop goes through the rows for the initial ticker calculating the total volume by adding to *tickerVolumes* for each line of data for the ticker. To calculate the return, the code finds the first and last row with data for the ticker and calculates the difference between starting and ending values. This is largely kept the same from the previous code, except for substituting arrays for individual variables. One significant change is an addition to the instructions when the last row of data is found. In addition to using the data to calculate the return, the tickerIndex is increased by one (see code below). This happens for “Next i” starts the loop again, so the code will now be populating the data for the next array. Because we set the initial condition with the first loop, the volume calculation for the next ticker starts over at zero.
 
 '''
+     ...
         If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
             tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
             '3d Increase the tickerIndex.
