@@ -51,7 +51,8 @@ The refactored code successfully reduces the runtime of the code. This is easily
 ### 2017 runtime
 ![Screenshot2017](https://github.com/DeliaDavila/stock-analysis/blob/main/Resources/Screenshot2017.png)
 
-
+### 2018 runtime
+![Screenshot2018](https://github.com/DeliaDavila/stock-analysis/blob/main/Resources/Screenshot2018.png)
 
 ## Summary
 In this section, I discuss the relative merits of refactoring
